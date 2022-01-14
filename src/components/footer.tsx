@@ -16,7 +16,7 @@ const Footer : React.FC = () =>
     return(
         <div style={footerStyles}>
             <p style={textStyles}>Made by Chris Noble</p>
-            <Button href="">View Code</Button>
+            <Button href="https://github.com/christopher-noble/Portfolio">View Code</Button>
         </div>
     )
 }
