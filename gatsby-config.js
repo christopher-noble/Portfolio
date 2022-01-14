@@ -3,12 +3,17 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "portfolio",
   },
-  plugins: [
+  plugins:
+  [
+    `gatsby-plugin-smoothscroll`,
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: `gatsby-plugin-typescript`,
       options: {
-        trackingId: "",
+        isTSX: true,
+        jsxPragma: `jsx`,
+        allExtensions: true,
       },
     },
   ],
+  
 };
