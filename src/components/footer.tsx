@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap';
 const footerStyles: CSSProperties = {
     width: '100%',
     height: '100%',
+    justifyContent:'space-evenly',
 }
 
 const textStyles: CSSProperties = {
@@ -11,12 +12,34 @@ const textStyles: CSSProperties = {
     marginTop: 150
 }
 
+const buttonStyles: CSSProperties = {
+    backgroundColor: 'white',
+    color: 'black',
+    borderRadius: 1,
+    height: 40,
+    borderColor: 'transparent',
+    width: 150,
+    // paddingTop: 8,
+    verticalAlign: 'middle',
+    textAlign: 'center',
+}
+
+const imageStyles: CSSProperties = {
+    width: '33%',
+    paddingLeft: 15,
+    paddingRight: 0,
+    paddingBottom: 2,
+}
+
 const Footer : React.FC = () =>
 {
     return(
         <div style={footerStyles}>
             <p style={textStyles}>Made by Chris Noble</p>
-            <Button href="https://github.com/christopher-noble/Portfolio">View Code</Button>
+            <Button style={buttonStyles} target="_blank" href="https://github.com/christopher-noble/Portfolio">
+                View Code
+                <img style={imageStyles} src="github-circle.png"></img>
+            </Button>
         </div>
     )
 }

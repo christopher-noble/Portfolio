@@ -34,7 +34,9 @@ const NavBar: React.FC = () =>
                 <Nav.Link style={navLinkStyle} href="#skills">Skills</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link style={navLinkStyle}>Resume</Nav.Link>
+                <Nav.Link style={navLinkStyle} target="_blank" href="https://drive.google.com/file/d/1pcvoPAQlic5yRkxQq3-sNMtiZIQ0aKcJ/view?usp=sharing">
+                    Resume
+                </Nav.Link>
             </Nav.Item>
         </Nav>
         </div>

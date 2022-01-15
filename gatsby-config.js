@@ -14,6 +14,12 @@ module.exports = {
         allExtensions: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "christophernoble.ca",
+      },
+    },
   ],
   
 };

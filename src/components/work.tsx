@@ -25,7 +25,6 @@ const heading1Styles : CSSProperties = {
       width: '80%',
       marginLeft: 'auto',
       marginRight: 'auto',
-    //   justifyContent: 'space-evenly',
   }
 
   const imgStyles : CSSProperties = {
@@ -54,8 +53,16 @@ const heading1Styles : CSSProperties = {
 
   const cardStyles : CSSProperties = {
     width: '28rem', 
-    height: 'auto'
+    height: 'auto',
+    margin: 'auto',
   }
+
+  const btnImgStyles: CSSProperties = {
+    width: 34,
+    paddingLeft: 12,
+    paddingRight: 0,
+    paddingBottom: 2,
+}
 
 const Work : React.FC = () =>
 {
@@ -108,7 +115,10 @@ const Work : React.FC = () =>
                                     statistics on a global scale. Parameters sort results on date, countries, 
                                     cases active, recovered, and deaths. 
                                 </Card.Text>
-                                <Button href="https://github.com/christopher-noble/Covid-Tracker" style={buttonStyles}>View Code on Github</Button>
+                                <Button target="_blank" href="https://github.com/christopher-noble/Covid-Tracker" style={buttonStyles}>
+                                    View Code
+                                    <img style={btnImgStyles} src="github-white-background.png"></img>
+                                </Button>
                             </Fade>
                         </Card.ImgOverlay>
                     </animated.div>
@@ -123,7 +133,9 @@ const Work : React.FC = () =>
                                     Using FreshDesk’s liquid templating framework, 
                                     I published an all-new user interface for Blackpurl’s support center. 
                                 </Card.Text>
-                                <Button href="https://support.blackpurl.com/support/home" style={buttonStyles}>Explore</Button>
+                                <Button target="_blank" href="https://support.blackpurl.com/support/home" style={buttonStyles}>
+                                    Explore
+                                </Button>
                             </Fade>
                             </Card.ImgOverlay>
                         </animated.div>
@@ -139,7 +151,10 @@ const Work : React.FC = () =>
                                     sorts and displays to custom user requests for book, purchase, 
                                     or customer information, including cumulative pricing.
                                 </Card.Text>
-                                <Button href="https://github.com/christopher-noble/BooksPlus" style={buttonStyles}>View Code on Github</Button>
+                                <Button target="_blank" href="https://github.com/christopher-noble/BooksPlus" style={buttonStyles}>
+                                    View Code
+                                    <img style={btnImgStyles} src="github-white-background.png"></img>
+                                </Button>
                             </Fade>
                         </Card.ImgOverlay>
                     </animated.div>
