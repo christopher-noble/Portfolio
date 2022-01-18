@@ -8,31 +8,33 @@ import {
   useSpringRef,
 } from '@react-spring/web'
 
-import data from '../config/connectData';
-import "../styles/styles.css";
+import data from '../data/connectData';
+import "../styles/connectStyles.css";
+import { useMediaQuery } from 'react-responsive';
 
 const buttonStyles: CSSProperties = {
   marginTop: 50,
-  width: 1000,
+  width: '100%',
   color: 'white',
 }
 
 const textStyles: CSSProperties = {
-  // fontSize: '15px',
   fontSize: '80%',
-  width: 175,
-  // width: '190px',
+  width: '500%',
   height: '100%',
   marginTop: -9,
-  // marginTop: -10.5,
-  // marginBottom: 0,
-  // paddingBottom: 0,
-  // justifyContent: 'center',
-  // textAlign: 'center',
+  marginLeft: -20
+}
+
+const smallScreenStyles: CSSProperties = {
+
 }
 
 const ConnectWithMe : React.FC = () => 
 {
+  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+
   const [open, set] = useState(false)
 
   const springApi = useSpringRef()

@@ -2,7 +2,7 @@ import React, { CSSProperties } from 'react';
 import "../styles/styles.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/header';
-import WelcomeMessage from '../components/welcomeMessage';
+import Landing from '../components/landing';
 import Skills from '../components/skills';
 import Work from '../components/work';
 import Footer from '../components/footer';
@@ -15,7 +15,7 @@ const headerStyles : CSSProperties = {
   height: '25vh',
 }
 
-const welcomeMessageStyles : CSSProperties = {
+const landingStyles : CSSProperties = {
   width: '100%',
   height: '75vh',
   textAlign: 'center',
@@ -23,19 +23,21 @@ const welcomeMessageStyles : CSSProperties = {
 
 const workStyles : CSSProperties = {
   width: '100%',
-  height: '100vh',
+  height: '100%',
   textAlign: 'center',
 }
 
 const aboutStyles : CSSProperties = {
   width: '100%',
-  height: '100vh',
+  height: '100%',
   textAlign: 'center',
+  marginBottom: '10%',
 }
 
 const skillsStyles : CSSProperties = {
   width: '100%',
-  height: '100vh',
+  height: '100%',
+  marginBottom: '10%',
   textAlign: 'center',
 }
 
@@ -44,6 +46,7 @@ const footerStyles : CSSProperties = {
   height: '35vh',
   textAlign: 'center',
   backgroundColor: 'black',
+  position: 'relative',
 }
 
 
@@ -55,8 +58,8 @@ const IndexPage: React.FC = () =>
         <Header/>
       </Stack>
 
-      <Stack style={welcomeMessageStyles}>
-        <WelcomeMessage/>
+      <Stack style={landingStyles}>
+        <Landing/>
       </Stack>
 
       <Stack id="work" style={workStyles}>

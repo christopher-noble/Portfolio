@@ -26,7 +26,7 @@ const data = [
     },
     {
         img: javaImg,
-        description: 'First programming language learned, 3 semesters of study. HttpClient, Log4j'
+        description: 'Native language. Experience with MySQL ddatabases, HttpClient, Log4j'
     },
     {
         img: awsImg,
@@ -34,7 +34,7 @@ const data = [
     },
     {
         img: pythonImg,
-        description: 'Utilized with Flask, created API to interact with Spacys NLP at Blackpurl'
+        description: "Utilized with Flask, created API to interact with Spacy's NLP at Blackpurl"
     },
     {
         img: sqlImg,

@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 
 const footerStyles: CSSProperties = {
     width: '100%',
-    height: '100%',
+    height: '35vh',
     justifyContent:'space-evenly',
 }
 
@@ -19,7 +19,6 @@ const buttonStyles: CSSProperties = {
     height: 40,
     borderColor: 'transparent',
     width: 150,
-    // paddingTop: 8,
     verticalAlign: 'middle',
     textAlign: 'center',
 }
