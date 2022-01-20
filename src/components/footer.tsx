@@ -23,6 +23,17 @@ const buttonStyles: CSSProperties = {
     textAlign: 'center',
 }
 
+const mobileButtonStyles: CSSProperties = {
+    backgroundColor: 'white',
+    color: 'black',
+    borderRadius: 1,
+    height: 40,
+    borderColor: 'transparent',
+    width: 150,
+    verticalAlign: 'middle',
+    textAlign: 'center',
+}
+
 const imageStyles: CSSProperties = {
     width: '33%',
     paddingLeft: 15,

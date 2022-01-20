@@ -26,7 +26,7 @@ const data = [
     },
     {
         img: javaImg,
-        description: 'Native language. Experience with MySQL ddatabases, HttpClient, Log4j'
+        description: 'Native language. Experience with MySQL databases, HttpClient, Log4j'
     },
     {
         img: awsImg,

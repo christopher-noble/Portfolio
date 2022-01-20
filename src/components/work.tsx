@@ -288,7 +288,9 @@ const Work : React.FC = () =>
                         </Card.ImgOverlay>
                     </animated.div>
                 </Card>
-            </Stack>}
+            </Stack>
+            
+            }
         </Stack>
         
     )

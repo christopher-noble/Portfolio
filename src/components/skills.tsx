@@ -47,6 +47,7 @@ const itemStyles : CSSProperties = {
     width: 220,
     marginLeft: 'auto',
     marginRight: 'auto',
+    marginTop: 40,
     position: 'relative'
 }
 
@@ -75,6 +76,7 @@ const mobileSubContentStyles: CSSProperties = {
     marginTop: '5vh',
     marginBottom: '15vh',
     display: 'grid',
+    gridTemplateColumns: '1fr',
     position: 'relative'
 }
 
@@ -83,7 +85,7 @@ const mobileTextStyles : CSSProperties = {
 }
 
 const textStyles : CSSProperties = {
-    fontSize: '100%'
+    fontSize: '90%'
 }
 
 const Skills : React.FC = () =>
@@ -95,20 +97,38 @@ const Skills : React.FC = () =>
     
     return(
         <Stack>
-            <p style={isMobile ? mobileHeading1Styles : heading1Styles}>Skills</p>
+            {
+                isMobile? 
+                <p style={mobileHeading1Styles}>Skills</p>
+                :
+                <p style={heading1Styles}>Skills</p>
+            }
             <Stack style={contentStyle}>
-                <Stack style={   
-                                isTablet? mobileSubContentStyles : 
-                                subContentStyles}>
-                    {
-                        skills.map((skill, index) => (
-                            <Stack style={isMobile? mobileItemStyles : itemStyles} key={index}>
-                                <img style={imgStyles} src={skill.img}/>
-                                <p style={isMobile? mobileTextStyles : textStyles}>{skill.description}</p>
-                            </Stack>
-                        ))
-                    }
+            {
+                isTablet? 
+                <Stack style={mobileSubContentStyles}>
+                {
+                    skills.map((skill, index) => (
+                        <Stack style={mobileItemStyles} key={index}>
+                            <img style={imgStyles} src={skill.img}/>
+                            <p style={mobileTextStyles}>{skill.description}</p>
+                        </Stack>
+                    ))
+                }
                 </Stack>
+                :
+                <Stack style={subContentStyles}>
+                {
+                    skills.map((skill, index) => (
+                            
+                        <Stack style={itemStyles} key={index}>
+                            <img style={imgStyles} src={skill.img}/>
+                            <p style={textStyles}>{skill.description}</p>
+                        </Stack>
+                    ))
+                }
+                </Stack>
+            }
             </Stack>
         </Stack>
     )

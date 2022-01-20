@@ -18,6 +18,14 @@ const buttonStyles: CSSProperties = {
   color: 'white',
 }
 
+const mobileButtonStyles: CSSProperties = {
+
+  width: '100%',
+  color: 'white',
+  marginLeft:'auto',
+  marginRight: 'auto',
+}
+
 const textStyles: CSSProperties = {
   fontSize: '80%',
   width: '500%',
@@ -26,14 +34,19 @@ const textStyles: CSSProperties = {
   marginLeft: -20
 }
 
-const smallScreenStyles: CSSProperties = {
-
+const mobileTextStyles: CSSProperties = {
+  fontSize: '50%',
+  width: '500%',
+  height: '100%',
+  marginLeft: -6,
+  marginTop: -6,
 }
+
 
 const ConnectWithMe : React.FC = () => 
 {
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 400px)' })
+  const isTablet = useMediaQuery({ query: '(max-width: 800px)' })
 
   const [open, set] = useState(false)
 
@@ -44,6 +57,16 @@ const ConnectWithMe : React.FC = () =>
     from: { size: '20%', background: 'black' },
     to: {
       size: open ? '60%' : '20%',
+      background: open ? 'white' : 'black',
+    },
+  })
+
+  const { mobileSize, ...mobileRest } = useSpring({
+    ref: springApi,
+    config: config.stiff,
+    from: { mobileSize: '20%', background: 'black' },
+    to: {
+      mobileSize: open ? '60%' : '20%',
       background: open ? 'white' : 'black',
     },
   })
@@ -64,7 +87,7 @@ const ConnectWithMe : React.FC = () =>
   ])
 
   return (
-    <div style={buttonStyles} className="wrapper">
+    <div style={isMobile? mobileButtonStyles : buttonStyles} className="wrapper">
       
       <animated.div
         style={{ ...rest, width: size, height: size, position: 'relative' }}
@@ -79,7 +102,14 @@ const ConnectWithMe : React.FC = () =>
           />
         ))}
         {
-          !open ? <p style={textStyles}>CONNECT WITH ME</p> : ''
+          !open ? 
+          isTablet?
+          <p style={mobileTextStyles}>{'CONNECT'}</p>
+          :
+          <p style={textStyles}>{'CONNECT WITH ME'}</p>
+          :
+          ''
+        
         }
           
       </animated.div>

@@ -22,7 +22,7 @@ const mobileNavStyles: CSSProperties ={
     padding: 0,
     marginLeft: 0,
     marginRight: 0,
-    fontSize: 12
+    fontSize: 11
 }
 
 const navLinkStyle: CSSProperties = {
@@ -31,7 +31,7 @@ const navLinkStyle: CSSProperties = {
 
 const mobileNavLinkStyle: CSSProperties = {
     color: 'black',
-    padding: 9,
+    padding: 8,
 }
 
 const NavBar: React.FC = () =>
@@ -41,25 +41,49 @@ const NavBar: React.FC = () =>
 
     return(
         <div>
-        <Nav style={isMobile? mobileNavStyles : navStyles}>
-            <Nav.Item>
-                <Nav.Link style={isMobile? mobileNavLinkStyle : navLinkStyle} href="#home">Home</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link style={isMobile? mobileNavLinkStyle : navLinkStyle} href="#work">Work</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link style={isMobile? mobileNavLinkStyle : navLinkStyle} href="#about">About</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link style={isMobile? mobileNavLinkStyle : navLinkStyle} href="#skills">Skills</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link style={isMobile? mobileNavLinkStyle : navLinkStyle} target="_blank" href="https://drive.google.com/file/d/1pcvoPAQlic5yRkxQq3-sNMtiZIQ0aKcJ/view?usp=sharing">
-                    Resume
-                </Nav.Link>
-            </Nav.Item>
-        </Nav>
+            {
+                isMobile? 
+                <Nav style={mobileNavStyles}>
+                    <Nav.Item>
+                        <Nav.Link style={mobileNavLinkStyle} href="#home">Home</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={mobileNavLinkStyle} href="#work">Work</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={mobileNavLinkStyle} href="#about">About</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={mobileNavLinkStyle} href="#skills">Skills</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={mobileNavLinkStyle} target="_blank" href="https://drive.google.com/file/d/1pcvoPAQlic5yRkxQq3-sNMtiZIQ0aKcJ/view?usp=sharing">
+                            Resume
+                        </Nav.Link>
+                    </Nav.Item>
+                </Nav>
+                :
+                <Nav style={navStyles}>
+                    <Nav.Item>
+                        <Nav.Link style={navLinkStyle} href="#home">Home</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={navLinkStyle} href="#work">Work</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={navLinkStyle} href="#about">About</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={navLinkStyle} href="#skills">Skills</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link style={navLinkStyle} target="_blank" href="https://drive.google.com/file/d/1pcvoPAQlic5yRkxQq3-sNMtiZIQ0aKcJ/view?usp=sharing">
+                            Resume
+                        </Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            }
+        
         </div>
     )
 }

@@ -36,13 +36,13 @@ const stackStyles : CSSProperties = {
   }
 
   const tabletH2Style: CSSProperties ={
-    fontSize: 11,
+    fontSize: 15,
     display: 'inline-block',
 
   }
 
   const tabletH3Style: CSSProperties = {
-    fontSize: 9,
+    fontSize: 13,
     display: 'inline-block',
   }
 
@@ -50,6 +50,20 @@ const stackStyles : CSSProperties = {
     fontSize: 25,
     paddingLeft: 15,
     paddingRight: 15,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  }
+
+  const mobileH2Style: CSSProperties = {
+    fontSize: 12,
+    display: 'inline-block',
+
+  }
+
+  const mobileH3Style: CSSProperties = {
+    fontSize: 9,
+    display: 'inline-block',
+
   }
   
 const Landing: React.FC = () =>
@@ -60,31 +74,24 @@ const Landing: React.FC = () =>
   
     return(
         <div>
-          
-            
             <Stack style={stackStyles}>
               {
+                isMobile? 
+                <span>
+                <p style={mobileH3Style}>Hi! I'm Chris.&nbsp;A&nbsp;</p>
+                <p style={mobileH2Style}>software developer&nbsp;</p>
+                <p style={mobileH1Style}>doing one thing at a time.</p>
+                <Connect/>
+                </span>
+                :
                 isTablet? 
-
                 <span>
                 <p style={tabletH3Style}>Hi! I'm Chris.&nbsp;A&nbsp;</p>
                 <p style={tabletH2Style}>software developer&nbsp;</p>
-                {
-                  !isMobile? 
-                  //tablet version
-                  <div>
-                  <p style={tabletH1Style}>doing one thing at a time.</p>
-                  </div>
-                  :
-                  //mobile version
-                  <p style={mobileH1Style}>doing one thing at a time.</p>
-                }
-                
+                <p style={tabletH1Style}>doing one thing at a time.</p>
                 <Connect/>
                 </span>
-
                 : 
-
                 <span>
                 <p style={h3Style}>Hi! I'm Chris.&nbsp;A&nbsp;</p>
                 <p style={h2Style}>software developer&nbsp;</p>
@@ -92,19 +99,8 @@ const Landing: React.FC = () =>
                 <p style={h1Style}>doing one thing at a time.</p>
                 <Connect/>
                 </span>
-
               }
-                
-
-                
-              
-                    
-                
             </Stack>
-            
-            
-          
-            
         </div>
     )
 }

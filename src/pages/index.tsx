@@ -24,6 +24,7 @@ const landingStyles : CSSProperties = {
 const workStyles : CSSProperties = {
   width: '100%',
   height: '100%',
+  marginBottom: '10%',
   textAlign: 'center',
 }
 

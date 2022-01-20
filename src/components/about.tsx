@@ -87,13 +87,18 @@ const About : React.FC = () =>
 
     return(
         <Stack style={stackStyles}>
-            <p style={isMobile ? mobileHeading1Styles : heading1Styles}>About Me</p>
+            {
+                isMobile?
+                <p style={mobileHeading1Styles}>About Me</p>
+                :
+                <p style={heading1Styles}>About Me</p>
+            }
             {
                 isTablet? 
                 
                 <Stack style={contentStyles}>
                 <Stack>
-                    <p style={isMobile ? mobileTextStyles : textStyles}>
+                    <p style={mobileTextStyles}>
                     My journey through software development started 
                     at BCIT in 2019. Today, I’m working as a front-end 
                     developer at Blackpurl, while completing my BTech 
