@@ -137,30 +137,12 @@ const Work : React.FC = () =>
     const blackpurlImgAnimate = useSpring({ opacity: isMouseInsideBlackpurlImage ? 1 : 0 })
     const booksImgAnimate = useSpring({ opacity: isMouseInsideBooksImage ? 1 : 0 })
 
-    const covidMouseEnter : any = () => 
-    {
-        setIsMouseInsideCovidImage(true);
-    }
-    const covidMouseLeave : any = () => 
-    {
-        setIsMouseInsideCovidImage(false);
-    }
-    const blackpurlMouseEnter : any = () => 
-    {
-        setIsMouseInsideBlackpurlImage(true);
-    }
-    const blackpurlMouseLeave : any = () => 
-    {
-        setIsMouseInsideBlackpurlImage(false);
-    }
-    const booksMouseEnter : any = () => 
-    {
-        setIsMouseInsideBooksImage(true);
-    }
-    const booksMouseLeave : any = () => 
-    {
-        setIsMouseInsideBooksImage(false);
-    }
+    const covidMouseEnter : any = () => setIsMouseInsideCovidImage(true);
+    const covidMouseLeave : any = () => setIsMouseInsideCovidImage(false);
+    const blackpurlMouseEnter : any = () => setIsMouseInsideBlackpurlImage(true);
+    const blackpurlMouseLeave : any = () => setIsMouseInsideBlackpurlImage(false);
+    const booksMouseEnter : any = () => setIsMouseInsideBooksImage(true);
+    const booksMouseLeave : any = () => setIsMouseInsideBooksImage(false);
 
     return(
         <Stack style={stackStyles}>
