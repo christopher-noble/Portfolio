@@ -110,8 +110,7 @@ const ConnectWithMe : React.FC = () =>
           :
           ''
         
-        }
-          
+        } 
       </animated.div>
     </div>
   )
