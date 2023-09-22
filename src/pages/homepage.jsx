@@ -16,7 +16,7 @@ import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
-import myArticles from "../data/articles";
+import Certifications from "../data/certifications";
 
 import "./styles/homepage.css";
 
@@ -142,17 +142,17 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
+								{Certifications.map((cert, index) => (
 									<div
 										className="homepage-article"
 										key={(index + 1).toString()}
 									>
 										<Article
 											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={article().link}
+											date={cert().date}
+											title={cert().title}
+											description={cert().description}
+											link={cert().link}
 										/>
 									</div>
 								))}

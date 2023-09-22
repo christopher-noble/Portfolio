@@ -2,6 +2,50 @@ import React from "react";
 
 const education_1 = () => {
 	return {
+		date: "Nov 2022",
+		title: "Computer Systems",
+		description:
+			"2 year diploma",
+		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
+		style: ``,
+		keywords: [
+			"PSM",
+			"Chris",
+			"Chris N",
+			"Chris Noble",
+		],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 2</h1>
+			</React.Fragment>
+		),
+	};
+}
+
+const education_2 = () => {
+	return {
+		date: "Nov 2022",
+		title: "Applied Software Development",
+		description:
+			"Associate Certificate",
+		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
+		style: ``,
+		keywords: [
+			"PSM",
+			"Chris",
+			"Chris N",
+			"Chris Noble",
+		],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 2</h1>
+			</React.Fragment>
+		),
+	};
+}
+
+const education_3 = () => {
+	return {
 		date: "May 2023",
 		title: "Certified AWS Cloud Practitioner",
 		description:
@@ -40,7 +84,7 @@ const education_1 = () => {
 	};
 }
 
-const education_2 = () => {
+const education_4 = () => {
 	return {
 		date: "Nov 2022",
 		title: "Certified Professional Scrum Master",
@@ -62,6 +106,28 @@ const education_2 = () => {
 	};
 }
 
-const myEducation = [education_1, education_2];
+const education_5 = () => {
+	return {
+		date: "Nov 2022",
+		title: "Agile Development",
+		description:
+			"",
+		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
+		style: ``,
+		keywords: [
+			"PSM",
+			"Chris",
+			"Chris N",
+			"Chris Noble",
+		],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 2</h1>
+			</React.Fragment>
+		),
+	};
+}
+
+const myEducation = [education_1, education_2, education_3, education_4, education_5];
 
 export default myEducation;
