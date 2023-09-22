@@ -1,24 +1,20 @@
 const INFO = {
 	main: {
-		title: "Portfolio by christopher-noble",
+		title: "Christopher Noble",
 		name: "Chris N.",
 		email: "chris.noble@oceangold.ca",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/christopher-noble",
+		linkedin: "https://linkedin.com/in/christopher-noble",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack software engineer, amateur surfer.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a full stack software engineer with experience in Node.js, TypeScript, React, AWS solutions, database management, and continuous product improvement on the system development lifecycle (SDLC). I'm highly organized and dedicated, with good understanding of software quality processes. My values include leadership, teamwork, attention to detail, and producing quality results.",
 	},
 
 	about: {
@@ -35,48 +31,30 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Decipher",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"The #1 way to search for segments in your favourite podcasts, introducing Decipher.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
+			linkText: "View Project",
+			link: "https://github.com/christopher-noble/decipher",
+		},
+
+		{
+			title: "Blackpurl Support",
+			description:
+				"I fully developed all UI for Blackpurl Support Center for Blackpurl.com.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://support.blackpurl.com/support/home",
 		},
 
 		{
-			title: "Project 2",
+			title: "ViralPulse",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"Track covid active cases, recoveries, and deaths from any country in the world.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/christopher-noble/ViralPulse",
 		},
 	],
 };

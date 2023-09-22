@@ -22,7 +22,7 @@ const Article = (props) => {
 					</div>
 					<div className="homepage-article-link">
 						<Link to={link}>
-							Read article{" "}
+							See Credential
 							<FontAwesomeIcon
 								style={{ fontSize: "10px" }}
 								icon={faChevronRight}

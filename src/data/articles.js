@@ -1,17 +1,18 @@
 import React from "react";
 
-function article_1() {
+const education_1 = () => {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "May 2023",
+		title: "Certified AWS Cloud Practitioner",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Core cloud principles and various AWS services in compute, storage, databases, and networking, encompassing over 90 services in total.",
 		keywords: [
-			"The Benefits of Cloud Computing",
+			"AWS Cloud Practitioner",
 			"Chris",
 			"Chris N",
 			"Chris Noble",
 		],
+		link: "https://www.credly.com/badges/e5e82112-0137-4b54-9579-11113a44e4a3/public_url",
 		style: `
 				.article-content {
 					display: flex;
@@ -39,15 +40,16 @@ function article_1() {
 	};
 }
 
-function article_2() {
+const education_2 = () => {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "Nov 2022",
+		title: "Certified Professional Scrum Master",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"Scrum framework roles, events, artifacts, effective team leadership and facilitation.",
+		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
 		style: ``,
 		keywords: [
-			"Artificial Intelligence in Healthcare",
+			"PSM",
 			"Chris",
 			"Chris N",
 			"Chris Noble",
@@ -60,6 +62,6 @@ function article_2() {
 	};
 }
 
-const myArticles = [article_1, article_2];
+const myEducation = [education_1, education_2];
 
-export default myArticles;
+export default myEducation;
