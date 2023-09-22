@@ -3,9 +3,9 @@
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Chris Noble",
+		"email": "chris.noble@oceangold.ca",
+		"url": "https://www.linkedin.com/in/christopher-noble/"
 	},
 	"license": "MIT",
 	"private": true,
