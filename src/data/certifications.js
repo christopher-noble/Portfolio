@@ -6,7 +6,7 @@ const certification_1 = () => {
 		date: "May 2023",
 		title: "Certified AWS Cloud Practitioner",
 		description:
-			"Core cloud principles and various AWS services in compute, storage, databases, and networking, encompassing over 90 services in total.",
+			"Amazon Web Services",
 		keywords: [
 			"AWS Cloud Practitioner",
 			"Chris",
@@ -46,7 +46,7 @@ const certification_2 = () => {
 		date: "Nov 2022",
 		title: "Certified Professional Scrum Master",
 		description:
-			"Scrum framework roles, events, artifacts, effective team leadership and facilitation.",
+			"Scrum.org",
 		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
 		style: ``,
 		keywords: [

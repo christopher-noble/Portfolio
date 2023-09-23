@@ -2,10 +2,10 @@ import React from "react";
 
 const education_1 = () => {
 	return {
-		date: "Nov 2022",
+		date: "2019-2021",
 		title: "Computer Systems",
 		description:
-			"2 year diploma",
+			"British Columbia Institute of Technology, 2 year diploma",
 		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
 		style: ``,
 		keywords: [
@@ -24,10 +24,10 @@ const education_1 = () => {
 
 const education_2 = () => {
 	return {
-		date: "Nov 2022",
+		date: "2019-2020",
 		title: "Applied Software Development",
 		description:
-			"Associate Certificate",
+			"British Columbia Institute of Technology, Associate Certificate",
 		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
 		style: ``,
 		keywords: [
@@ -49,7 +49,7 @@ const education_3 = () => {
 		date: "May 2023",
 		title: "Certified AWS Cloud Practitioner",
 		description:
-			"Core cloud principles and various AWS services in compute, storage, databases, and networking, encompassing over 90 services in total.",
+			"AWS",
 		keywords: [
 			"AWS Cloud Practitioner",
 			"Chris",
@@ -89,7 +89,7 @@ const education_4 = () => {
 		date: "Nov 2022",
 		title: "Certified Professional Scrum Master",
 		description:
-			"Scrum framework roles, events, artifacts, effective team leadership and facilitation.",
+			"Scrum.org",
 		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
 		style: ``,
 		keywords: [
@@ -108,10 +108,10 @@ const education_4 = () => {
 
 const education_5 = () => {
 	return {
-		date: "Nov 2022",
-		title: "Agile Development",
+		date: "2021",
+		title: "Agile Development (With Distinction)",
 		description:
-			"",
+			"British Columbia Institute of Technology, Associate Certificate",
 		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
 		style: ``,
 		keywords: [
