@@ -14,18 +14,22 @@ const Certifications = (props) => {
 				<div className="education-left-side">
 					<div className="education-date">{date}</div>
 				</div>
-
 				<Link to={link}>
 					<div className="education-right-side">
 						<div className="education-title">{title}</div>
 						<div className="education-description">{description}</div>
-						<div className="education-link">
-							See Credential
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</div>
+						{
+							link ?
+								<div className="education-link">
+									See Credential
+									<FontAwesomeIcon
+										style={{ fontSize: "10px" }}
+										icon={faChevronRight}
+									/>
+								</div>
+								: ''
+						}
+
 					</div>
 				</Link>
 			</div>

@@ -21,7 +21,7 @@ const INFO = {
 		description: "Born and raised in Vancouver, BC, I've been working in the software industry since September 2021, but fell in love with building before I used a computer. I've worked on a number of projects in recent years, most proudly the compliance reporting tool I built at Treez. This project automated both on-demand and preiodically scheduled reporting to the Washington government. Tools I used were Cypress, Docker, AWS Batch, Fargate, ECR, Event Bridge, Lambda, S3, SES. Outside of work, I recharge by training jiu jitsu or spending time near the ocean. My imagination thrives when my mind is at peace.",
 	},
 
-	articles: {
+	education: {
 		title: "Staying updated on today's ideas paves my path ahead.",
 	},
 

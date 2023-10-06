@@ -5,20 +5,8 @@ const education_1 = () => {
 		date: "2019-2021",
 		title: "Computer Systems",
 		description:
-			"British Columbia Institute of Technology, 2 year diploma",
-		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
+			"2 year certificate diploma, British Columbia Institute of Technology",
 		style: ``,
-		keywords: [
-			"PSM",
-			"Chris",
-			"Chris N",
-			"Chris Noble",
-		],
-		body: (
-			<React.Fragment>
-				<h1>Content of education 2</h1>
-			</React.Fragment>
-		),
 	};
 }
 
@@ -27,35 +15,34 @@ const education_2 = () => {
 		date: "2019-2020",
 		title: "Applied Software Development",
 		description:
-			"British Columbia Institute of Technology, Associate Certificate",
-		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
-		style: ``,
-		keywords: [
-			"PSM",
-			"Chris",
-			"Chris N",
-			"Chris Noble",
-		],
-		body: (
-			<React.Fragment>
-				<h1>Content of education 2</h1>
-			</React.Fragment>
-		),
+			"Associate Certificate, British Columbia Institute of Technology",
 	};
 }
 
 const education_3 = () => {
 	return {
+		date: "2019-2020",
+		title: "Applied Computer Information Systems",
+		description:
+			"Associate Certificate, British Columbia Institute of Technology",
+	};
+}
+
+const education_4 = () => {
+	return {
+		date: "2021",
+		title: "Agile Development (With Distinction)",
+		description:
+			"Associate Certificate, British Columbia Institute of Technology",
+	};
+}
+
+const education_5 = () => {
+	return {
 		date: "May 2023",
 		title: "Certified AWS Cloud Practitioner",
 		description:
-			"AWS",
-		keywords: [
-			"AWS Cloud Practitioner",
-			"Chris",
-			"Chris N",
-			"Chris Noble",
-		],
+			"Certificate, AWS",
 		link: "https://www.credly.com/badges/e5e82112-0137-4b54-9579-11113a44e4a3/public_url",
 		style: `
 				.education-content {
@@ -69,65 +56,20 @@ const education_3 = () => {
 					outline: 2px solid red;
 				}
 				`,
-		body: (
-			<React.Fragment>
-				<div className="education-content">
-					<div className="paragraph">Content of education 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
 	};
 }
 
-const education_4 = () => {
+const education_6 = () => {
 	return {
 		date: "Nov 2022",
 		title: "Certified Professional Scrum Master",
 		description:
-			"Scrum.org",
+			"Certificate, Scrum.org",
 		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
 		style: ``,
-		keywords: [
-			"PSM",
-			"Chris",
-			"Chris N",
-			"Chris Noble",
-		],
-		body: (
-			<React.Fragment>
-				<h1>Content of education 2</h1>
-			</React.Fragment>
-		),
 	};
 }
 
-const education_5 = () => {
-	return {
-		date: "2021",
-		title: "Agile Development (With Distinction)",
-		description:
-			"British Columbia Institute of Technology, Associate Certificate",
-		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
-		style: ``,
-		keywords: [
-			"PSM",
-			"Chris",
-			"Chris N",
-			"Chris Noble",
-		],
-		body: (
-			<React.Fragment>
-				<h1>Content of education 2</h1>
-			</React.Fragment>
-		),
-	};
-}
-
-const myEducation = [education_1, education_2, education_3, education_4, education_5];
+const myEducation = [education_1, education_2, education_3, education_4, education_5, education_6];
 
 export default myEducation;

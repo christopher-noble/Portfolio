@@ -15,7 +15,7 @@ const certification_1 = () => {
 		],
 		link: "https://www.credly.com/badges/e5e82112-0137-4b54-9579-11113a44e4a3/public_url",
 		style: `
-				.article-content {
+				.education-content {
 					display: flex;
 					flex-direction: column;
 					align-items: center;
@@ -26,18 +26,6 @@ const certification_1 = () => {
 					outline: 2px solid red;
 				}
 				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
 	};
 }
 
@@ -48,16 +36,8 @@ const certification_2 = () => {
 		description:
 			"Scrum.org",
 		link: "https://www.credly.com/badges/128e5527-64be-46a2-88c8-0b1984a1af82/public_url",
-		style: ``,
-		keywords: [
-			"PSM",
-			"Chris",
-			"Chris N",
-			"Chris Noble",
-		],
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
 			</React.Fragment>
 		),
 	};

@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Education from "../components/education/certifications";
-
 import INFO from "../data/user";
 import myEducation from "../data/education";
 
@@ -15,7 +13,6 @@ const EducationDisplay = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
 
 	return (
 		<React.Fragment>
