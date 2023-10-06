@@ -1,6 +1,6 @@
-# Christophernoble.ca
+# Welcome to my personal portfolio project
 
-Welcome to my personal portfolio project. This portfolio showcases my skills, projects, and experiences as a web developer. It is built using JavaScript and is hosted using AWS services such as S3, CloudFront, and Route 53.
+This portfolio showcases my skills, projects, and experiences as a web developer. It is built using JavaScript and is hosted using AWS services such as S3, CloudFront, and Route 53. You can find it at christophernoble.ca
 
 ![Screenshot 2023-10-06 at 12 15 30 PM](https://github.com/christopher-noble/Portfolio/assets/83136270/edfb3eb8-624a-44ab-b594-c127e525667d)
 
