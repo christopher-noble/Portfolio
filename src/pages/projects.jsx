@@ -31,7 +31,7 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I've made to make life a little easier.
+							Things I've made to make life easier.
 						</div>
 
 						<div className="subtitle projects-subtitle">

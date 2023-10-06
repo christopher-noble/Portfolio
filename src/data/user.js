@@ -17,7 +17,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Chris Noble, I live in Vancouver, where I craft the future.",
+		title: "I’m Chris Noble, I live in Vancouver, where I build the future.",
 		description: "Born and raised in Vancouver, BC, I've been working in the software industry since September 2021, but fell in love with building before I could turn on a computer. I've worked on a number of projects in recent years, most proudly the compliance reporting tool I built at Treez. This project automated both on-demand and preiodically scheduled reporting to the Washington government. Tools I used were Cypress JS, Docker, AWS Batch, Fargate, ECR, Event Bridge, Lambda, S3, SES. To recharge, my daily rituals include training jiu jitsu or spending time near the ocean. Beach days, walking, or anything on the water means a great day for me.",
 	},
 
@@ -29,7 +29,7 @@ const INFO = {
 		{
 			title: "Decipher",
 			description:
-				"The #1 way to search for segments in your favourite podcasts, introducing Decipher.",
+				"The #1 way to search for segments in your favourite content, introducing Decipher.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
 			linkText: "View Project",
 			link: "https://github.com/christopher-noble/decipher",
