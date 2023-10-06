@@ -33,16 +33,16 @@ const Works = () => {
 										Running startup with team members, acquired by Treez.
 									</li>
 									<li>
-										Built >20 core features including design and product planning.
+										Built {'>20'} core features including design and product planning.
 									</li>
 									<li>
 										Built complicance reporting tool for automated periodic and on-demand reporting to Washington government.
 										<ul>
 											<li>
-												Large focus on Cypress, Docker, 7 services in AWS
+												TS, Cypress, Docker, 7 services in AWS
 											</li>
 											<li>
-												AWS Diagram <a href="google.ca">here</a>
+												AWS Diagram <a href="https://drive.google.com/file/d/1NjiJNixjwJjUUK5X9g_aFUbmx1y0IV1Q/view?usp=sharing">here</a>
 											</li>
 										</ul>
 									</li>
@@ -53,7 +53,7 @@ const Works = () => {
 										Led bi-weekly Sprint Review meetings to engineering org.
 									</li>
 									<li>
-										Performed regular prod deployments
+										Regular prod deployments.
 									</li>
 								</ul>
 							</div>
@@ -82,13 +82,13 @@ const Works = () => {
 											<li>
 												Integrated Node natural language processing library for customer data cleanup and validation.
 											</li>
+											<li>
+												Integrated AWS Cognito, DynamoDB for authentication, user data.
+											</li>
 										</ul>
 									</li>
 									<li>
-										Built complete UI for Blackpurl support center. Visit <a href="google.ca">here</a>
-									</li>
-									<li>
-										Participated in customer activation and revenue meetings.
+										Built complete UI for Blackpurl support center. Visit <a href="https://support.blackpurl.com/support/home">here</a>
 									</li>
 								</ul>
 							</div>
