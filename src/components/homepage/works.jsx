@@ -24,7 +24,7 @@ const Works = () => {
 								Full Stack Software Engineer
 							</div>
 							<div className="work-description">
-								<strong>Stack: </strong> Meteor.js, Node.js, MongoDB
+								<strong>Stack: </strong> Node.js, MongoDB, Meteor.js, Bootstrap,
 								<ul>
 									<li>
 										Team of 3
@@ -71,7 +71,7 @@ const Works = () => {
 								Software Developer
 							</div>
 							<div className="work-description">
-								<strong>Stack: </strong> TypeScript, React, Node.js, DynamoDB
+								<strong>Stack: </strong> TypeScript, Node.js, DynamoDB, React, Fluent UI
 								<ul>
 									<li>
 										Team of 3
