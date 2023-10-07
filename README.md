@@ -11,9 +11,13 @@ Welcome to my personal portfolio project. This portfolio showcases my skills, pr
 - **Fast & Secure Hosting**: Utilizing AWS's S3 for static web hosting, with content delivered through CloudFront's CDN.
 - **Custom Domain**: Configured with a custom domain through Route 53 for a professional touch.
 
-## Technologies Used
+## Stack
 
-- JavaScript: For dynamic content rendering and interactivity.
-- AWS S3: To host static web assets like HTML, CSS, and JS files.
-- AWS CloudFront: For faster content delivery through its content delivery network.
-- AWS Route 53: For domain management and DNS configurations.
+- JavaScript
+- React
+
+## Hosting & Delivery
+
+- AWS S3
+- AWS CloudFront
+- AWS Route 53

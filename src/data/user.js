@@ -47,7 +47,7 @@ const INFO = {
 		{
 			title: "Portfolio",
 			description:
-				"Consolodation of my career achievements. Utilizing S3 static web hosting, Route 53, and CloudFront.",
+				"Consolodation of my career achievements. Hosted on AWS, utiliing S3 static web hosting, CloudFront, and Route53.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/christopher-noble/Portfolio",

@@ -1,5 +1,3 @@
-import React from "react";
-
 const education_1 = () => {
 	return {
 		date: "2019-2021",
