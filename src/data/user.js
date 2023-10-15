@@ -13,7 +13,7 @@ const INFO = {
 
 	homepage: {
 		title: "Full-stack software engineer, problem solver, amateur surfer",
-		description: "I am a full stack software engineer with core experience in Node.js, TypeScript, React, and AWS, and over two years of experience in the industry. My career aspirations are in leadership, mentoring, product, and engineering. I welcome all challenges and strive to conquer every day with my embedded values.",
+		description: "Full stack software engineer with core expertise in Node.js, TypeScript, React, and AWS, currently in year three of professional practice. My career aspirations encompass leadership, mentoring, product development, and engineering. I embrace challenges every day that drive my growth and contribute significantly to the success in both my personal endeavours and professional career.",
 	},
 
 	about: {
@@ -29,7 +29,7 @@ const INFO = {
 		{
 			title: "Decipher",
 			description:
-				"The #1 way to search for segments in your favourite content, introducing Decipher.",
+				"Effortlessly locate segments in your favourite podcasts, audiobooks, or web content, introducing Decipher.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
 			linkText: "View Project",
 			link: "https://github.com/christopher-noble/decipher",
@@ -38,7 +38,7 @@ const INFO = {
 		{
 			title: "Blackpurl Support",
 			description:
-				"I fully developed all UI for Blackpurl Support Center for Blackpurl.com.",
+				"I fully developed all the UI for Blackpurl support center, crafting a seamless user experience.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://support.blackpurl.com/support/home",
@@ -47,7 +47,7 @@ const INFO = {
 		{
 			title: "Portfolio",
 			description:
-				"Consolodation of my career achievements. Hosted on AWS, utilizing S3 static web hosting, CloudFront, and Route53.",
+				"Consolidation of my personal growth and career achievements, showcased through this React-powered portfolio.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/christopher-noble/Portfolio",
