@@ -33,7 +33,7 @@ const Works = () => {
 										Running startup with team members, acquired by Treez.
 									</li>
 									<li>
-										Built {'>20'} core features including responsibility of all phases in the System Development Life Cycle (SDLC).
+										Built {'>20'} core features including responsibility of all phases of the System Development Life Cycle (SDLC).
 									</li>
 									<li>
 										Built reporting tool and architected cloud services to automate compliance reporting to Washington
