@@ -3,7 +3,7 @@ const education_1 = () => {
 		date: "2019-2021",
 		title: "Computer Systems",
 		description:
-			"2 year certificate diploma, British Columbia Institute of Technology",
+			"Certificate, British Columbia Institute of Technology",
 		style: ``,
 	};
 }

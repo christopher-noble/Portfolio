@@ -33,7 +33,7 @@ const Works = () => {
 										Running startup with team members, acquired by Treez.
 									</li>
 									<li>
-										Built {'>20'} core features including responsibility of all phases of the System Development Life Cycle (SDLC).
+										Built {'>20'} performance-optimized system features including responsibility of all phases of the System Development Life Cycle (SDLC).
 									</li>
 									<li>
 										Built reporting tool and architected cloud services to automate compliance reporting to Washington
@@ -48,13 +48,16 @@ const Works = () => {
 										</ul>
 									</li>
 									<li>
-										Regularly created custom reports using advanced DB queries to meet customer and organizational needs.
+										Regularly executed advanced NoSQL queries for customer account adjustments and generating company reports.
 									</li>
 									<li>
 										Led bi-weekly Sprint Review meetings to engineering org.
 									</li>
 									<li>
-										Regular prod deployments.
+										Provided immediate assistance for resolving critical system bugs, ensuring minimal disruption to operations.
+									</li>
+									<li>
+										Performed routine production deployments to deliver software updates and enhancements on a regular basis.
 									</li>
 								</ul>
 							</div>
@@ -69,7 +72,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Blackpurl Inc.</div>
 							<div className="work-subtitle">
-								Software Developer
+								Front End Software Developer
 							</div>
 							<div className="work-description">
 								<strong>Stack: </strong> TypeScript, Node.js, DynamoDB, React, Fluent UI
@@ -78,18 +81,21 @@ const Works = () => {
 										Team of 3
 									</li>
 									<li>
-										Built UI for six-step customer onboarding tool.
+										Solely built user interface for <a style={{ 'text-decoration': 'none' }} href="https://support.blackpurl.com/support/home">Blackpurl Support Center</a>
+									</li>
+									<li>
+										Solely built user interface for customer activation tool.
 										<ul>
 											<li>
-												Integrated Node natural language processing library for customer data cleanup and validation.
-											</li>
-											<li>
-												Integrated AWS Cognito, DynamoDB for authentication, user data.
+												Interactive data insertion, profile creation, accounting setup.
 											</li>
 										</ul>
 									</li>
 									<li>
-										Built complete UI for Blackpurl support center. Visit <a style={{ 'text-decoration': 'none' }} href="https://support.blackpurl.com/support/home">here</a>
+										Assisted in back-end logic to normalize and validate customer data using node-nlp, eliminating 80% of manual data cleaning.
+									</li>
+									<li>
+										Owned back-end tasks for authentication and data management with AWS Cognito, DynamoDB.
 									</li>
 								</ul>
 							</div>

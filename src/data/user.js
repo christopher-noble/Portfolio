@@ -13,7 +13,7 @@ const INFO = {
 
 	homepage: {
 		title: "Full-stack software engineer, problem solver, amateur surfer",
-		description: "Full stack software engineer with core expertise in Node.js, TypeScript, React, and AWS, with over two years of professional practice. My career aspirations encompass leadership, mentoring, product development, and engineering. I embrace challenges every day that drive my growth and contribute significantly to the success in both my personal endeavours and professional career.",
+		description: "Full stack software engineer with core expertise in Node.js, TypeScript, React, and AWS, and over two years of professional experience. My career aspirations encompass leadership, mentoring, product development, and engineering. I relish new challenges that drive my growth every day, contributing significantly to the success in both my personal life and professional career.",
 	},
 
 	about: {
