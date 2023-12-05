@@ -24,7 +24,7 @@ const Works = () => {
 								Full Stack Software Engineer
 							</div>
 							<div className="work-description">
-								<strong>Stack: </strong> Node.js, MongoDB, Meteor.js, Bootstrap,
+								<strong>Stack: </strong> Node.js, React, MongoDB, Meteor.js, Bootstrap,
 								<ul>
 									<li>
 										Team of 3
@@ -81,10 +81,10 @@ const Works = () => {
 										Team of 3
 									</li>
 									<li>
-										Solely built user interface for <a style={{ 'text-decoration': 'none' }} href="https://support.blackpurl.com/support/home">Blackpurl Support Center</a>
+										Solely built front-end for <a style={{ 'text-decoration': 'none' }} href="https://support.blackpurl.com/support/home">Blackpurl Support Center</a>
 									</li>
 									<li>
-										Solely built user interface for customer activation tool.
+										Solely built front-end for customer activation tool.
 										<ul>
 											<li>
 												Interactive data insertion, profile creation, accounting setup.
