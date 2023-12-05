@@ -30,7 +30,7 @@ const Works = () => {
 										Team of 3
 									</li>
 									<li>
-										Running startup with team members, acquired by Treez.
+										Running startup with team members, acquired by Treez, called Mister Kraken.
 									</li>
 									<li>
 										Built {'>20'} performance-optimized system features including responsibility of all phases of the System Development Life Cycle (SDLC).
