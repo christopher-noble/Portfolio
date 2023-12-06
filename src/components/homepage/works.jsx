@@ -33,7 +33,7 @@ const Works = () => {
 										Running startup with team members, acquired by Treez, called Mister Kraken.
 									</li>
 									<li>
-										Built {'>20'} performance-optimized system features including responsibility of all phases of the System Development Life Cycle (SDLC).
+										Built {'>20'} performance-optimized features including responsibility of all phases of the System Development Life Cycle (SDLC).
 									</li>
 									<li>
 										Built reporting tool and architected cloud services to automate compliance reporting to Washington
