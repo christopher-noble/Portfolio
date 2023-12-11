@@ -24,7 +24,7 @@ const Works = () => {
 								Full Stack Software Engineer
 							</div>
 							<div className="work-description">
-								<strong>Stack: </strong> Node.js, React, MongoDB, Meteor.js, Bootstrap,
+								<strong>Stack: </strong> TypeScript, Node.js, React, MongoDB, Meteor.js
 								<ul>
 									<li>
 										Team of 3
@@ -61,7 +61,7 @@ const Works = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="work-duration">April 2022 - Present</div>
+							<div className="work-duration">April 2022 - Dec 2023</div>
 						</div>
 
 						<div className="work">
