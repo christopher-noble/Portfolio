@@ -27,23 +27,16 @@ const Work = () => {
 								<strong>Stack: </strong> TypeScript, Node.js, React, MongoDB, Meteor.js
 								<ul>
 									<li>
-										Team of 3
-									</li>
-									<li>
 										Running startup with team members, acquired by Treez, called Mister Kraken.
 									</li>
 									<li>
-										Built {'>20'} performance-optimized features including responsibility of all phases of the System Development Life Cycle (SDLC).
+										Developed {'>20'} performance-optimized features including responsibility of all phases of the (SDLC).
 									</li>
 									<li>
-										Built reporting tool and architected cloud services to automate compliance reporting to Washington
-										government, eliminating 8+ labor hours per week of manual work.
+										Automated compliance reporting to Washington government, leveraging Cypress JS and cloud services to eliminate 8+ labor hours per week of manual work.
 										<ul>
 											<li>
-												TS, Cypress, Docker, 7 services in AWS
-											</li>
-											<li>
-												AWS Diagram <a style={{ 'text-decoration': 'none' }} href="https://drive.google.com/file/d/1NjiJNixjwJjUUK5X9g_aFUbmx1y0IV1Q/view?usp=sharing">here</a>
+												<a style={{ 'text-decoration': 'none' }} href="https://drive.google.com/file/d/1NjiJNixjwJjUUK5X9g_aFUbmx1y0IV1Q/view?usp=sharing">AWS Diagram here</a>
 											</li>
 										</ul>
 									</li>
@@ -51,10 +44,10 @@ const Work = () => {
 										Regularly executed advanced NoSQL queries for customer account adjustments and generating company reports.
 									</li>
 									<li>
-										Led bi-weekly Sprint Review meetings to engineering org.
+										Provided immediate assistance for resolving critical system bugs, ensuring minimal disruption to operations.
 									</li>
 									<li>
-										Provided immediate assistance for resolving critical system bugs, ensuring minimal disruption to operations.
+										Led bi-weekly Sprint Review meetings to engineering org.
 									</li>
 									<li>
 										Performed routine production deployments to deliver software updates and enhancements on a regular basis.
@@ -78,13 +71,10 @@ const Work = () => {
 								<strong>Stack: </strong> TypeScript, Node.js, DynamoDB, React, Fluent UI
 								<ul>
 									<li>
-										Team of 3
+										Developed comprehensive UI for  <a style={{ 'text-decoration': 'none' }} href="https://support.blackpurl.com/support/home">Blackpurl Support Center</a>
 									</li>
 									<li>
-										Solely built front-end for <a style={{ 'text-decoration': 'none' }} href="https://support.blackpurl.com/support/home">Blackpurl Support Center</a>
-									</li>
-									<li>
-										Solely built front-end for customer activation tool.
+										Engineered the complete front-end for customer activation tool.
 										<ul>
 											<li>
 												Interactive data insertion, profile creation, accounting setup.

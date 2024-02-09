@@ -18,7 +18,7 @@ const INFO = {
 
 	about: {
 		title: "I’m Chris Noble, I live in Vancouver, where I build the future.",
-		description: "Born and raised in Vancouver, BC, I've been working in the software industry since September 2021, but fell in love with building before I used a computer. I've worked on a number of projects in recent years, most proudly the compliance reporting tool I built at Treez. This project automated both on-demand and preiodically scheduled reporting to the Washington government. Tools I used were Cypress, Docker, AWS Batch, Fargate, ECR, Event Bridge, Lambda, S3, SES. Outside of work, I recharge by training jiu jitsu or spending time near the ocean. My imagination thrives on a clean state of mind.",
+		description: "Born and raised in Vancouver, BC, I've been working in the software industry since September 2021, but fell in love with building before I used a computer. I've worked on a number of projects in recent years, most proudly the compliance reporting tool I built at Treez. This project automated both on-demand and preiodically scheduled reporting to the Washington government. Tools I used were Cypress, Docker, and seven services in AWS. Outside of work, I recharge by training jiu jitsu or spending time near the ocean.",
 	},
 
 	education: {
@@ -38,7 +38,7 @@ const INFO = {
 		{
 			title: "Blackpurl Support",
 			description:
-				"I fully developed all the UI for Blackpurl support center, crafting a seamless user experience.",
+				"I soley developed a comprehensive UI for Blackpurl support center, crafting a seamless user experience.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://support.blackpurl.com/support/home",
