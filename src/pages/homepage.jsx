@@ -12,7 +12,7 @@ import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Education from "../components/homepage/education";
-import Works from "../components/homepage/works";
+import Work from "../components/homepage/work";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -158,8 +158,8 @@ const Homepage = () => {
 								))}
 							</div>
 
-							<div className="homepage-works">
-								<Works />
+							<div className="homepage-work">
+								<Work />
 							</div>
 						</div>
 
